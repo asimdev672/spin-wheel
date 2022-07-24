@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import {IoArrowBack} from 'react-icons/io5'
 import axios from "axios";
 import Card from "../card/Card";
 import "./ProductList.scss";
@@ -20,7 +21,7 @@ const ProductList = () => {
     <>
       <div className="ProductList">
         <Link to="/">
-          <button className="p_btn">Go Back</button>
+          <button className="p_btn"> <IoArrowBack className="back_icon"/> Go Back</button>
         </Link>
         <div className="container-fluid">
           {/* <div className="row row-cols-lg-4 row-cols-md-3 row-cols-1"> */}
