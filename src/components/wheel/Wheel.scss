@@ -1,0 +1,127 @@
+.Wheel {
+    .common_icon {
+        font-size: x-large;
+    }
+    .red_icon {
+        color: rgb(182, 43, 43);
+    }
+    .gray_icon {
+        color: rgb(179, 172, 172);
+    }
+    .pink_icon {
+        color: rgb(220, 154, 165);
+    }
+    .dark_icon {
+        color: rgb(185, 30, 6);
+    }
+    .wood_icon {
+        color: rgb(104, 78, 45);
+    }
+    .blue_icon {
+        color: #5AB1BB;
+    }
+    .fridge_icon {
+        color: #a57dd1;
+    }
+
+
+    .circle-container {
+        position: relative;
+        width: 26rem;
+        height: 26rem;
+        padding: 2.8rem;
+        border: 8px solid #ccc;
+        border-radius: 50%;
+        margin: 1.75rem auto 0;
+        background-color: #050622;
+
+        .inner-circule {
+            width: 18rem;
+            height: 18rem;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin: 0.75rem auto 0;
+            background-color: aliceblue;
+        }
+
+        a {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 2rem;
+            height: 2rem;
+            margin: -2rem;
+        }
+
+        .one {
+            transform: rotate(280deg) translate(9.7rem) rotate(-280deg);
+
+            &:hover+.qw {
+                display: none;
+                color: red;
+            }
+        }
+
+        .two {
+            transform: rotate(325deg) translate(11rem) rotate(-328deg);
+        }
+
+        .three {
+            transform: translate(12rem);
+        }
+
+        .four {
+            transform: rotate(45deg) translate(12.5rem) rotate(-45deg);
+        }
+
+        .five {
+            transform: rotate(444deg) translate(12rem) rotate(-444deg);
+        }
+
+        .six {
+            transform: rotate(135deg) translate(10.5rem) rotate(-135deg);
+        }
+
+        .seven {
+            transform: translate(-9.3rem);
+        }
+
+        .eight {
+            transform: rotate(225deg) translate(9rem) rotate(-217deg);
+        }
+
+
+
+
+        .inner-to-circule {
+            width: 14rem;
+            height: 14rem;
+            border-radius: 50%;
+            margin: 0.75rem auto 0;
+            background-color: rgb(228, 236, 244);
+            position: absolute;
+            top: 19%;
+            left: 22%;
+        }
+
+        .inner-to-inner-circule {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            margin: 0.75rem auto 0;
+            background-color: #cfd8df;
+            position: absolute;
+            top: 27%;
+            left: 30%;
+        }
+
+        .text {
+            position: absolute;
+            top: 45%;
+            left: 45%;
+
+        }
+
+    }
+}
