@@ -20,6 +20,10 @@
     font-size: 1.2rem;
     gap: 5px;
 
+    .active{
+        background-color: #5AB1BB;
+    } 
+    
     .page-num{
         padding: 8px 15px;
         cursor: pointer;
@@ -30,8 +34,6 @@
             background-color: #5AB1BB;
             color: white;
         }
-        .active{
-            background-color: #5AB1BB;
-        }
+       
     }
 }
